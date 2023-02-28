@@ -168,3 +168,14 @@ dependencies {
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
+
+task copyEffects {
+    copy {
+        from '../../effects'
+        into 'src/main/assets/bnb-resources/effects'
+    }
+}
+
+gradle.projectsEvaluated {
+    preBuild.dependsOn(copyEffects)
+}
