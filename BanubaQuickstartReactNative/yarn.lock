@@ -1061,7 +1061,7 @@
 
 "@banuba/react-native@^0.1.3":
   version "0.1.3"
-  resolved "https://registry.npmjs.org/@banuba/react-native/-/react-native-0.1.3.tgz"
+  resolved "https://registry.yarnpkg.com/@banuba/react-native/-/react-native-0.1.3.tgz#36a0ba753fb9a2f8e08cf71102f5b3df63b7401c"
   integrity sha512-OrIX2HSUhNpQ1b6wuF0LlWUUSJJL8Qak6PGJNSEilBgyWPY8UQ/oUGxkNjrS6g5emVXOdTvneSVvdzUzpoErjQ==
 
 "@bcoe/v8-coverage@^0.2.3":
