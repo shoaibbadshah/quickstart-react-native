@@ -1059,10 +1059,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@banuba/react-native@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@banuba/react-native/-/react-native-0.1.3.tgz#36a0ba753fb9a2f8e08cf71102f5b3df63b7401c"
-  integrity sha512-OrIX2HSUhNpQ1b6wuF0LlWUUSJJL8Qak6PGJNSEilBgyWPY8UQ/oUGxkNjrS6g5emVXOdTvneSVvdzUzpoErjQ==
+"@banuba/react-native@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@banuba/react-native/-/react-native-0.3.0.tgz#d0ff634bb47abebb7613f345b452596f43effa01"
+  integrity sha512-Ru3nDrmd5AXEnyehxMP92Sk6i09/BkHMUptWjbJWrXS80DXERXwSDT35cIreaKU4M0epq2AAkxyjREdeMzPy1A==
 
 "@bcoe/v8-coverage@^0.2.3":
   version "0.2.3"
@@ -5705,7 +5705,7 @@ pkg-dir@^4.2.0:
 
 pod-install@^0.1.0:
   version "0.1.38"
-  resolved "https://registry.yarnpkg.com/pod-install/-/pod-install-0.1.38.tgz#1c16a800a5fc1abea0cafcc0e190f376368c76ab"
+  resolved "https://registry.npmjs.org/pod-install/-/pod-install-0.1.38.tgz"
   integrity sha512-NeDWGigjJRriOIKBOvpW2/tK2tYLfyUT7ia6C6L+oarCAhBNP+IGODWdU+GEAqvfsseqOApcFclpXAJTL0UPzA==
 
 posix-character-classes@^0.1.0:
