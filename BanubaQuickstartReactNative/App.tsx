@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { EffectPlayerView, BanubaSdkManager } from '@banuba/react-native';
+import BanubaSdkManager, { EffectPlayerView } from '@banuba/react-native';
 
 export default class App extends React.Component {
   ep: any;
