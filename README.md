@@ -36,4 +36,4 @@ This is how to integrate Banuba SDK into existing React Native app. You still ne
 5. *For iOS*: add [`NSCameraUsageDescription`](BanubaQuickstartReactNative/ios/BanubaQuickstartReactNative/Info.plist#L39).
 
 ### Docs
-You can find more info about Banuba [Face AR SDK here](https://www.banuba.com/facear-sdk/face-filters).
+You can find more info about Banuba [Face AR SDK here](https://docs.banuba.com/).
