@@ -17,17 +17,17 @@ Feel free to [contact us](https://docs.banuba.com/face-ar-sdk-v1/support) if you
 
 0. Clone the repository, ensure that you have setted up [React Native CLI development environment](https://reactnative.dev/docs/environment-setup).
 1. Copy and Paste your Client Token into appropriate section of [`BanubaQuickstartReactNative/App.tsx`](BanubaQuickstartReactNative/App.tsx#L11).
-2. Go to `BanubaQuickstartReactNative` directory. Run `yarn` command. This will install all required dependences.
-3. (iOS only) Go to `ios` directory and run `Pod install`. Return back to parent. This will install all required iOS dependencies.
-4. Connect a device and run `yarn ios` or `yarn android`. Alternatively you may may open XCode or Android Studio projects from
+2. Go to `BanubaQuickstartReactNative` directory. Run `npm install` command. This will install all required dependences.
+3. (iOS only) Go to `ios` directory and run `pod install`. Return back to parent. This will install all required iOS dependencies.
+4. Connect a device and run `npm run ios` or `npm run android`. Alternatively you may may open XCode or Android Studio projects from
 `ios` and `android` directories.
 
 ### Integration steps
 
 This is how to integrate Banuba SDK into existing React Native app. You still need a Client Token for this.
 
-1. Add `@banuba/react-native` [dependency](https://www.npmjs.com/package/@banuba/react-native): `yarn add @banuba/react-native`.
-2. *For iOS*: add a link to the native Banuba SDK into [`ios/Podfile`](BanubaQuickstartReactNative/ios/Podfile#L4): `source 'https://github.com/sdk-banuba/banuba-sdk-podspecs.git'`.
+1. Add `@banuba/react-native` [dependency](https://www.npmjs.com/package/@banuba/react-native): `npm install @banuba/react-native`.
+2. *For iOS*: add a link to the native Banuba SDK into [`ios/Podfile`](BanubaQuickstartReactNative/ios/Podfile#L1): `source 'https://github.com/sdk-banuba/banuba-sdk-podspecs.git'`.
     *For Android*: add our [maven repository](BanubaQuickstartReactNative/android/build.gradle#L28).
 3. Add code from [`BanubaQuickstartReactNative/App.tsx`](BanubaQuickstartReactNative/App.tsx) into your app.
 4. Add `effects` folder into your project. Link it with your app

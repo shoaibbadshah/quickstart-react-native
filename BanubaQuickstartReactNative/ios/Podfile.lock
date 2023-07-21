@@ -1,6 +1,6 @@
 PODS:
   - banuba-sdk-react-native (0.3.1):
-    - BanubaSdk (= 1.7.1)
+    - BanubaSdk
     - React-Core
   - BanubaSdk (1.7.1):
     - BNBAcneEyebagsRemoval (= 1.7.1)
@@ -753,7 +753,7 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
-  banuba-sdk-react-native: d4a34397ee4a09f7e63c5a6c4b01cbd12b0d5b88
+  banuba-sdk-react-native: 6f906b026837c70a0552af5e21d30bc56feaaab6
   BanubaSdk: 39f41fbb8ad6232e766a59ae78b3e28e05c64f34
   BNBAcneEyebagsRemoval: ff6e877d5429c11afb1f5500f427720ea822fb27
   BNBBackground: e8e82f43ac9f28ac77713c0f42c3092575c50d6f
