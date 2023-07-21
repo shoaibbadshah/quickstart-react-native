@@ -32,7 +32,7 @@ This is how to integrate Banuba SDK into existing React Native app. You still ne
 3. Add code from [`BanubaQuickstartReactNative/App.tsx`](BanubaQuickstartReactNative/App.tsx) into your app.
 4. Add `effects` folder into your project. Link it with your app
     1. iOS: just link effects folder into `Runner` XCode project (`File` -> `Add Files to ...`).
-    2. Android: add [the following](BanubaQuickstartReactNative/android/app/build.gradle#L172) code into app `build.gradle`. 
+    2. Android: add [the following](BanubaQuickstartReactNative/android/app/build.gradle#L126) code into app `build.gradle`. 
 5. *For iOS*: add [`NSCameraUsageDescription`](BanubaQuickstartReactNative/ios/BanubaQuickstartReactNative/Info.plist#L39).
 
 ### Docs
