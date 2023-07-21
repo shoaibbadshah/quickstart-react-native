@@ -1,4 +1,4 @@
-package com.banubaquickstartreactnative;
+package com.banuba.example.reactnative;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
